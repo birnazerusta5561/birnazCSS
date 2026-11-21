@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarkan Albümleri ve Şarkıları</title>
+</head>
+
+<body style="background-color:#f5f5f5; color:#333333;">
+
+    <!-- Kapak Bölümü -->
+    <div style="background-color:#1e3a8a; color:white; text-align:center; padding:20px;">
+
+        <h1>Tarkan Albümleri ve Şarkıları</h1>
+
+        <img
+            src="https://via.placeholder.com/800x250"
+            alt="Tarkan Kapak Fotoğrafı"
+            style="width:800px; height:250px;"
+        >
+
+        <p>
+            Türk pop müziğinin sevilen sanatçılarından
+            <b>Tarkan</b>'ın albümlerini, şarkılarını ve
+            hayran görüşlerini içeren örnek HTML sayfası.
+        </p>
+
+    </div>
+
+    <hr>
+
+    <!-- Bilgilendirme Paragrafları -->
+    <h2 style="color:darkblue;">Tarkan Hakkında</h2>
+
+    <p>
+        <b>Tarkan</b>, Türkiye'nin en tanınmış pop müzik sanatçılarından biridir.
+        Güçlü sesi, etkileyici sahne performansı ve unutulmaz şarkılarıyla
+        geniş bir hayran kitlesine sahiptir.
+    </p>
+
+    <p>
+        <i>Tarkan'ın şarkıları</i>, yalnızca Türkiye'de değil,
+        farklı ülkelerde de dinlenmiş ve büyük ilgi görmüştür.
+        Özellikle pop müziğe getirdiği yenilikçi yaklaşım dikkat çekmiştir.
+    </p>
+
+    <p>
+        <u>Şımarık</u>, <u>Kuzu Kuzu</u> ve <u>Dudu</u>
+        sanatçının en bilinen eserleri arasında yer almaktadır.
+        Bu şarkılar yıllar geçse de dinlenmeye devam etmektedir.
+    </p>
+
+    <hr>
+
+    <!-- Albümler -->
+    <h2 style="background-color:lightblue;">
+        Tarkan'ın Popüler Albümleri
+    </h2>
+
+    <table border="1"
+           style="width:600px; background-color:white;">
+
+        <tr style="background-color:navy; color:white;">
+            <th>Albüm</th>
+            <th>Yıl</th>
+            <th>Tür</th>
+        </tr>
+
+        <tr>
+            <td>Ölürüm Sana</td>
+            <td>1997</td>
+            <td>Pop</td>
+        </tr>
+
+        <tr>
+            <td>Karma</td>
+            <td>2001</td>
+            <td>Pop</td>
+        </tr>
+
+        <tr>
+            <td>Metamorfoz</td>
+            <td>2007</td>
+            <td>Pop</td>
+        </tr>
+
+        <tr>
+            <td>Ahde Vefa</td>
+            <td>2016</td>
+            <td>Türk Sanat Müziği</td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <!-- Şarkılar -->
+    <h2>Tarkan'ın Sevilen Şarkıları</h2>
+
+    <ul style="background-color:#e6f7ff;">
+        <li>Şımarık</li>
+        <li>Kuzu Kuzu</li>
+        <li>Dudu</li>
+        <li>Öp</li>
+        <li>Başına Belayım</li>
+    </ul>
+
+    <h3>Dinlemek İçin Tıklayın</h3>
+
+    <a
+        href="https://www.youtube.com/watch?v=44Jm1L7N9GU"
+        target="_blank"
+        style="background-color:green; color:white;">
+        Şımarık Şarkısını Dinle
+    </a>
+
+    <hr>
+
+    <!-- Sıralı Liste -->
+    <h2>Hayranların En Çok Sevdiği Şarkılar</h2>
+
+    <ol style="background-color:#fff3cd;">
+        <li>Şımarık</li>
+        <li>Kuzu Kuzu</li>
+        <li>Dudu</li>
+        <li>Öp</li>
+        <li>Yolla</li>
+    </ol>
+
+    <hr>
+
+    <!-- Form Bölümü -->
+    <h2>Tarkan Hayran Formu</h2>
+
+    <form
+        style="
+            background-color:white;
+            width:600px;
+            padding:20px;
+        ">
+
+        <label for="adsoyad">Ad Soyad:</label>
+        <br>
+
+        <input
+            type="text"
+            id="adsoyad"
+            placeholder="Adınız ve soyadınız"
+            style="width:300px; height:30px;"
+        >
+
+        <br><br>
+
+        <label for="email">E-posta:</label>
+        <br>
+
+        <input
+            type="email"
+            id="email"
+            placeholder="ornek@mail.com"
+            style="width:300px; height:30px;"
+        >
+
+        <br><br>
+
+        <label for="favori">Favori Şarkınız:</label>
+        <br>
+
+        <select id="favori"
+                style="width:250px; height:35px;">
+            <option>Şımarık</option>
+            <option>Kuzu Kuzu</option>
+            <option>Dudu</option>
+            <option>Öp</option>
+        </select>
+
+        <br><br>
+
+        <label>Cinsiyet:</label>
+        <br>
+
+        <input type="radio" id="erkek" name="cinsiyet">
+        <label for="erkek">Erkek</label>
+
+        <input type="radio" id="kadin" name="cinsiyet">
+        <label for="kadin">Kadın</label>
+
+        <br><br>
+
+        <label>Beğendiğiniz Özellikler:</label>
+        <br>
+
+        <input type="checkbox" id="ses">
+        <label for="ses">Sesi</label>
+
+        <input type="checkbox" id="sarkilar">
+        <label for="sarkilar">Şarkıları</label>
+
+        <input type="checkbox" id="sahne">
+        <label for="sahne">Sahne Performansı</label>
+
+        <br><br>
+
+        <label for="yorum">
+            Tarkan Hakkındaki Görüşünüz:
+        </label>
+
+        <br>
+
+        <textarea
+            id="yorum"
+            placeholder="Yorumunuzu yazınız..."
+            style="width:400px; height:120px;">
+        </textarea>
+
+        <br><br>
+
+        <input
+            type="submit"
+            value="Gönder"
+            style="
+                width:120px;
+                height:40px;
+                background-color:green;
+                color:white;
+            "
+        >
+
+    </form>
+
+    <hr>
+
+    <h4>HTML Etiketleri Kullanıldı</h4>
+
+    <p>
+        Bu sayfada
+        <b>div</b>,
+        <b>h1-h4</b>,
+        <b>img</b>,
+        <b>a</b>,
+        <b>p</b>,
+        <b>table</b>,
+        <b>ul</b>,
+        <b>ol</b>,
+        <b>form</b>,
+        <b>label</b>,
+        <b>input</b>,
+        <b>radio</b>,
+        <b>checkbox</b>,
+        <b>select</b>,
+        <b>textarea</b>,
+        <b>br</b> ve
+        <b>hr</b> etiketleri kullanılmıştır.
+    </p>
+
+</body>
+</html>

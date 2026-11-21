@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Etiketleri ve Style Kullanımı</title>
+</head>
+<body style="background-color: #f0f0f0; color: #333;">
+
+    <h1 style="color: white; background-color: navy;">
+        H1 Başlık
+    </h1>
+
+    <h2 style="color: red;">H2 Başlık</h2>
+    <h3 style="color: green;">H3 Başlık</h3>
+    <h4 style="color: blue;">H4 Başlık</h4>
+    <h5 style="color: purple;">H5 Başlık</h5>
+    <h6 style="color: brown;">H6 Başlık</h6>
+
+    <hr>
+
+    <p style="background-color: lightyellow;">
+        Bu bir paragraf örneğidir.
+        <br>
+        Alt satıra geçmek için BR etiketi kullanılır.
+    </p>
+
+    <p>
+        <b>Kalın Yazı (b)</b><br>
+        <i>İtalik Yazı (i)</i><br>
+        <u>Altı Çizili Yazı (u)</u>
+    </p>
+
+    <hr>
+
+    <h2>Resim (img)</h2>
+    <img
+        src="https://via.placeholder.com/200x100"
+        alt="Örnek Resim"
+        style="width:200px; height:100px; border:2px solid black;"
+    >
+
+    <h2>Bağlantı (a)</h2>
+    <a href="https://www.google.com"
+       style="color:white; background-color:green;">
+       Google'a Git
+    </a>
+
+    <hr>
+
+    <h2>Sırasız Liste (ul)</h2>
+    <ul style="background-color:#dff0d8;">
+        <li>Elma</li>
+        <li>Armut</li>
+        <li>Muz</li>
+    </ul>
+
+    <h2>Sıralı Liste (ol)</h2>
+    <ol style="background-color:#d9edf7;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <hr>
+
+    <h2>Tablo Örneği</h2>
+
+    <table border="1"
+           style="width:400px; background-color:white;">
+        <tr style="background-color:gray; color:white;">
+            <th>No</th>
+            <th>Ad</th>
+            <th>Şehir</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>Samsun</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Ayşe</td>
+            <td>Ankara</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Form Örneği</h2>
+
+    <form style="background-color:white; width:400px; padding:10px;">
+
+        <label>Ad Soyad:</label>
+        <br>
+        <input type="text"
+               style="width:300px; height:30px;">
+        <br><br>
+
+        <label>E-posta:</label>
+        <br>
+        <input type="email"
+               style="width:300px; height:30px;">
+        <br><br>
+
+        <label>Şehir:</label>
+        <br>
+        <select style="width:300px; height:35px;">
+            <option>Samsun</option>
+            <option>Ankara</option>
+            <option>İstanbul</option>
+        </select>
+        <br><br>
+        cinsiyetiniz <label for="cins1">Erkek</label>
+        <input type="radio" name="cins" id="cins1">
+       <label for="cins2">Kız</label>
+        <input type="radio" name="cins" id="cins2">
+<br>
+
+        <label>Mesaj:</label>
+        <br>
+        <textarea
+            style="width:300px; height:100px;">
+        </textarea>
+        <br><br>
+
+        <input type="submit"
+               value="Gönder"
+               style="background-color:green;
+                      color:white;
+                      width:100px;
+                      height:40px;">
+    </form>
+
+</body>
