@@ -1,0 +1,127 @@
+body {
+  background-color: lightyellow;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: darkblue;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  color: blue;
+  font-size: 26px;
+}
+p {
+  color: black;
+  font-size: 18px;
+}
+
+/* Sınıflar (class): noktayla başlar */
+.slogan {
+  font-style: italic;
+  color: gray;
+}
+.kategori {
+  font-weight: bold;
+  font-size: 14px;
+}
+.yazilim {
+  color: green;
+}
+.donanim {
+  color: orange;
+}
+.guvenlik {
+  color: red;
+}
+
+/* Kutu modeli: border, padding, margin */
+.ust {
+  background-color: darkblue;
+  padding: 20px;
+}
+.logo {
+  color: white;
+}
+.slogan {
+  color: lightgray;
+  text-align: center;
+}
+.haber {
+  background-color: white;
+  border: 2px solid gray;
+  padding: 15px;
+  margin: 20px auto;
+  width: 600px;
+}
+
+/* Resim ve tablo */
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+}
+td {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Menü ve bağlantılar */
+.menu {
+  list-style-type: none;
+  background-color: navy;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+}
+.menu a:hover {
+  background-color: orange;
+}
+
+/* Form */
+input, textarea, select {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.dugme {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.dugme:hover {
+  background-color: darkgreen;
+}
+
+/* Alt bilgi */
+.alt {
+  background-color: darkblue;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+.alt p {
+  color: white;
+  font-size: 14px;
+}

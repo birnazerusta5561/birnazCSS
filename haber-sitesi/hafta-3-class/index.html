@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>TeknoHaber - Hafta 3 - class (sınıf)</title>
+  <style>
+    body {
+      background-color: lightyellow;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: darkblue;
+      text-align: center;
+      font-size: 40px;
+    }
+    h2 {
+      color: blue;
+      font-size: 26px;
+    }
+    p {
+      color: black;
+      font-size: 18px;
+    }
+
+    /* Sınıflar (class): noktayla başlar */
+    .slogan {
+      font-style: italic;
+      color: gray;
+    }
+    .kategori {
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .yazilim {
+      color: green;
+    }
+    .donanim {
+      color: orange;
+    }
+    .guvenlik {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+<div class="ust">
+  <h1 class="logo">TeknoHaber</h1>
+  <p class="slogan">Bilişim dünyasından günlük haberler</p>
+</div>
+
+<ul class="menu">
+  <li><a href="#">Ana Sayfa</a></li>
+  <li><a href="#">Yazılım</a></li>
+  <li><a href="#">Donanım</a></li>
+  <li><a href="#">Güvenlik</a></li>
+  <li><a href="#">İletişim</a></li>
+</ul>
+
+<div class="haber">
+  <p class="kategori yazilim">YAZILIM</p>
+  <h2>Yapay Zekâ Meslek Liselerinde Derse Girdi</h2>
+  <img src="../resimler/robot.svg" alt="Robot resmi">
+  <p>Bazı meslek liselerinde öğrenciler artık kod yazarken yapay zekâ asistanlarından yardım alıyor. Öğretmenler, <b>önce kendin dene, sonra yardım iste</b> kuralını uyguluyor.</p>
+  <p>Öğrenciler hata mesajlarını okumayı ve hatayı kendileri bulmayı öğreniyor. Uzmanlara göre asıl önemli olan, kodun neden çalıştığını anlamak.</p>
+  <a href="#">Haberin devamı</a>
+</div>
+
+<div class="haber">
+  <p class="kategori donanim">DONANIM</p>
+  <h2>Yeni Nesil İşlemciler Daha Az Enerji Harcıyor</h2>
+  <img src="../resimler/islemci.svg" alt="İşlemci resmi">
+  <p>Yeni işlemciler aynı işi yaparken daha az elektrik tüketiyor. Bu da dizüstü bilgisayarların pil ömrünü <i>belirgin şekilde</i> uzatıyor.</p>
+  <p>Üreticiler, soğutma ihtiyacının azalması sayesinde cihazların daha ince ve sessiz olacağını söylüyor.</p>
+  <a href="#">Haberin devamı</a>
+</div>
+
+<div class="haber">
+  <p class="kategori guvenlik">GÜVENLİK</p>
+  <h2>Güçlü Şifre Nasıl Oluşturulur?</h2>
+  <img src="../resimler/kilit.svg" alt="Kilit resmi">
+  <p>Uzmanlar, kısa ve karmaşık şifreler yerine uzun ve akılda kalan şifre cümleleri kullanılmasını öneriyor. Her hesap için ayrı şifre kullanmak da çok önemli.</p>
+  <a href="#">Haberin devamı</a>
+</div>
+
+<div class="haber">
+  <h2>Haftanın Programlama Dilleri</h2>
+  <table>
+    <tr>
+      <th>Dil</th>
+      <th>Ne İçin Kullanılır?</th>
+      <th>Zorluk</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Web sayfasının iskeleti</td>
+      <td>Kolay</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Web sayfasının görünümü</td>
+      <td>Kolay</td>
+    </tr>
+    <tr>
+      <td>Python</td>
+      <td>Genel amaçlı programlama</td>
+      <td>Orta</td>
+    </tr>
+  </table>
+</div>
+
+<div class="haber">
+  <h2>Bültene Abone Ol</h2>
+  <form>
+    <label>Adınız:</label><br>
+    <input type="text"><br><br>
+    <label>İlgi alanınız:</label><br>
+    <select>
+      <option>Yazılım</option>
+      <option>Donanım</option>
+      <option>Güvenlik</option>
+    </select><br><br>
+    <label>Mesajınız:</label><br>
+    <textarea rows="3" cols="30"></textarea><br><br>
+    <input type="submit" value="Abone Ol" class="dugme">
+  </form>
+</div>
+
+<div class="alt">
+  <p>TeknoHaber &copy; 2026 - Eğitim amaçlı örnek sitedir.</p>
+</div>
+
+</body>
+</html>
